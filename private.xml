@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<root>
+  <item>
+    <name>Swap Command + w and Control + ` in Emacs</name>
+    <identifier>private.swap_command-w_and_control-`</identifier>
+    <only>EMACS</only>
+    <autogen>
+      __KeyToKey__
+      KeyCode::W, ModifierFlag::COMMAND_L,
+      KeyCode::BACKQUOTE, ModifierFlag::CONTROL_L
+    </autogen>
+  </item>
+</root>
